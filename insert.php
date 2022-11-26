@@ -9,7 +9,7 @@
         $gender = $_POST['gender'];
         $alamat = $_POST['alamat'];
 
-        // Buat koneksi dengan MySQL
+        // membuat koneksi dengan MySQL
         $con = mysqli_connect("localhost","root","","seal_fakultas");
 
         // Cek koneksi dengan mysql
