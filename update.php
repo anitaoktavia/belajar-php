@@ -12,13 +12,13 @@ if(isset($_GET['id'])){
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
         exit();
     }else{
-        echo '<br>koneksi berhasil';
+        echo '<br> koneksi berhasil';
     }
 
-    3. // membaca data dari tabel mysql
+    3. // baca data dari tabel mysql
     $sql = "SELECT * FROM mahasiswa WHERE id='$id'";
 
-    4. // Tampilkan data, dengan menjalankan sql query
+    4. // menampilkan data, dengan menjalankan sql query
     if ($result = mysqli_query($con, $sql)) {
         echo "<br>data tersedia";
         while($user_data = mysqli_fetch_assoc($result)) {
