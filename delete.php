@@ -14,7 +14,7 @@ if(isset($_GET['id'])){
         echo 'koneksi berhasil';
     }
     // buat sql query untuk insert ke database
-    // buat query untuk delete
+    // buat query untuk menghapus
     $sql = "DELETE FROM mahasiswa WHERE id='$id' ";
 
 
