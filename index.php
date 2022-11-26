@@ -24,7 +24,7 @@ if ($result = mysqli_query($con, $sql)) {
     mysqli_free_result($result);
   }
 
-// 5. menutup koneksi mysql
+// 5. tutup koneksi mysql
 mysqli_close($con);
 ?>
 
