@@ -14,7 +14,7 @@ if (mysqli_connect_errno()) {
 // 3 membaca data dari tabel mysql
 $sql = "SELECT * FROM mahasiswa";
 
-// 4. tampilkan data, dengan menjalankan sql query
+// 4. menampilkan data, dengan menjalankan sql query
 $mahasiswa = [];
 if ($result = mysqli_query($con, $sql)) {
     // tampilkan data satu per satu
@@ -24,7 +24,7 @@ if ($result = mysqli_query($con, $sql)) {
     mysqli_free_result($result);
   }
 
-// 5. tutup koneksi mysql
+// 5. menutup koneksi mysql
 mysqli_close($con);
 ?>
 
