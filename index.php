@@ -42,7 +42,7 @@ mysqli_close($con);
     <table border=1 style="width: 100%;">
         <tr>
             <th>NIM</th>
-            <th>Nama</th>
+            <th>Nama</th> 
             <th>Jenis Kelamin</th>
             <th>Tanggal Lahir</th>
             <th>Alamat</th>
